@@ -1,17 +1,47 @@
+# Archivos generados por Maven
 target/
+dependency-reduced-pom.xml
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
 pom.xml.next
 release.properties
-dependency-reduced-pom.xml
 buildNumber.properties
-.mvn/timing.properties
-# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+
+# Configuración de Maven Wrapper
+.mvn/
 .mvn/wrapper/maven-wrapper.jar
 
-# Eclipse m2e generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
+# Binarios y compilaciones
+bin/
+*.class
+*.jar
+*.war
+*.ear
+
+# Configuración de IDEs (Eclipse, IntelliJ, NetBeans)
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+.metadata/
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+
+# Datos temporales y archivos específicos de ejecución
+data/panasoft-db.tmp
+temp/
+work/
+work/Tomcat/
+work/Tomcat/localhost/
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
